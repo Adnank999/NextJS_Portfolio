@@ -1,0 +1,29 @@
+
+
+
+
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  z-index: 20;
+  transition: background-color 0.3s ease-in-out;
+  font-family: 'Spantaran' , sans-serif;
+  font-weight: semi-bold;
+}
+
+.transparent {
+  background-color: transparent;
+}
+
+.black {
+  background-color: #000; /* Change to your desired background color */
+}
+
+
+
+
+

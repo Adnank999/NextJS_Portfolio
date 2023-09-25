@@ -1,0 +1,143 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Spantaran";
+  src: url("../fonts/Spantaran.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Voga-Medium";
+  src: url("../fonts/Voga-Medium.otf");
+}
+
+@font-face {
+  font-family: "Luxia-Regular";
+  src: url("../fonts/Luxia-Regular.otf");
+}
+
+@font-face {
+  font-family: "Oswald-Medium";
+  src: url("../fonts/Oswald-Medium.otf");
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('https://fonts.googleapis.com/css?family=Poppins');
+  font-weight: normal;
+  font-style: normal;
+  
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+
+body::-webkit-scrollbar {
+  width: 1rem;
+}
+
+body::-webkit-scrollbar-track {
+   background-color: rgb(24 24 29);
+}
+
+body::-webkit-scrollbar-thumb {
+ 
+  background: #DC143C;
+    border: 5px solid transparent;
+    border-radius: 9px;
+    background-clip: content-box;
+}
+
+.globe {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  cursor: grabbing;
+}
+
+
+.custom-drawer-header-title {
+  font-size: 49px;
+  background: -webkit-linear-gradient(#088F8F, #0BDA51);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Poppins ';
+  margin-right: 60px;
+
+}
+
+.custom-menu-drawer-header-title {
+  font-size: 30px;
+  background: black;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Voga-Medium';
+  margin-right: 60px;
+  letter-spacing: 2px;
+
+}
+
+.rainbow-effect {
+  text-decoration: none;
+  
+}
+
+.rainbow-effect:hover {
+  background-size: 0 3px, 100% 3px;
+  
+}
+
+
+.rainbow-effect-bg {
+  margin-top: 200px;
+  background:
+  linear-gradient(
+    to right,
+    rgba(100, 200, 200, 1),
+    rgba(100, 200, 200, 1)
+  ),
+  linear-gradient(
+    to right,
+    rgba(255, 0, 0, 1),
+    rgba(255, 0, 180, 1),
+    rgba(0, 100, 200, 1)
+);
+background-size: 100% 3px, 0 3px;
+background-position: 100% 100%, 0 100%;
+background-repeat: no-repeat;
+transition: background-size 400ms;
+}
+
+
+
+
+
+
+.head_text {
+  @apply xs:text-2xl md:text-3xl lg:text-5xl mt-10 py-6 font-extrabold leading-[1.15] text-white ;
+}
+
+.orange_gradient {
+  @apply bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 bg-clip-text text-transparent;
+}
+
+.green_gradient {
+  @apply bg-gradient-to-r from-green-400 to-green-500 bg-clip-text text-transparent;
+}
+
+.blue_gradient {
+  @apply bg-gradient-to-r from-red-600 via-orange-600 to-yellow-300 bg-clip-text text-transparent;
+}
+
+.red_gradient {
+  @apply bg-gradient-to-l from-red-600 to-yellow-400 bg-clip-text text-transparent;
+}
