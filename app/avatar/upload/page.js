@@ -18,7 +18,7 @@ export default function AvatarUploadPage() {
  
           const newBlob = await upload(file.name, file, {
             access: 'public',
-            handleUploadUrl: '/avatar/upload',
+            handleUploadUrl: '/api/avatar/upload',
           });
  
           setBlob(newBlob);

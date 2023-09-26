@@ -3,22 +3,26 @@ import { Suspense } from "react";
 import { Canvas, useLoader } from "@react-three/fiber";
 import { Environment, OrbitControls, useAnimations } from "@react-three/drei";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
-import SpaceEX from "./SpaceEx";
+import Photonic from "./Photonic";
+import { Avatar } from "./Avatar";
 
-const Model = () => {
-  const gltf = useLoader(GLTFLoader, "/Space/scene.gltf");
 
-  // const { actions } = useAnimations(gltf.animations, gltf.scene);
 
-  // actions.Animation.play();
 
-  return (
-    <mesh>
+// const Model = () => {
+//   const gltf = useLoader(GLTFLoader, "/Space/scene.gltf");
+
+//   // const { actions } = useAnimations(gltf.animations, gltf.scene);
+
+//   // actions.Animation.play();
+
+//   return (
+//     <mesh>
       
-      <primitive object={gltf.scene} scale={0.8} />
-    </mesh>
-  );
-};
+//       <primitive object={gltf.scene} scale={0.8} />
+//     </mesh>
+//   );
+// };
 
 const Space3d = () => {
   return (
@@ -26,10 +30,12 @@ const Space3d = () => {
       <ambientLight intensity={1.5} />
       <pointLight position={[10, 10, 10]} />
       <Suspense fallback={null}>
-        <Model />
+        {/* <Model /> */}
+
+       
 
         
-        <Environment preset={"night"} />
+        {/* <Environment preset={"night"} /> */}
       </Suspense>
 
       <OrbitControls autoRotate />

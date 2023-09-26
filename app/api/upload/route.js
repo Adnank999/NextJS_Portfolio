@@ -24,7 +24,7 @@ export async function POST(request) {
           tokenPayload: JSON.stringify({
             // optional, sent to your server on upload completion
             userId: user.id,
-            
+            postId
           }),
         };
       },

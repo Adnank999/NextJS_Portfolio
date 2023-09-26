@@ -10,6 +10,7 @@ import TimeLine from "./components/TimeLine";
 import Layout from "./components/Layout";
 
 import "./styles/global.css";
+import Upload from "./components/Upload";
 
 export default function Home() {
   useEffect(() => {
@@ -46,6 +47,8 @@ export default function Home() {
         </div>
 
         <TechnologySvg />
+
+        
       </main>
     </Layout>
   );

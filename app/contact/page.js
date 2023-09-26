@@ -7,6 +7,8 @@ import Layout from "../components/Layout";
 
 import Contact from "../components/Contact";
 import Space3d from "../components/Space3d";
+import Canvas3d from "../components/Canvas3d";
+
 
 
 
@@ -19,9 +21,9 @@ const page = () => {
         
     
 
-        <div className="globe w-full md:w-1/2 ">
-            <Space3d/>
-        </div>
+         <div className="globe w-full md:w-1/2 "> 
+            <Canvas3d/>
+         </div> 
 
         <div className="w-full md:w-1/2">
           <Contact/>
@@ -29,7 +31,9 @@ const page = () => {
 
 
       </main>
-    </Layout>
+    </Layout> 
+
+     
   );
 };
 

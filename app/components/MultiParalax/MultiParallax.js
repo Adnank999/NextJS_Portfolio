@@ -66,7 +66,7 @@ const MultiParallax = () => {
         muted
         loop
         playsInline
-        src="/final3.mp4"
+        src="https://res.cloudinary.com/dtivxbmxa/video/upload/f_auto:video,q_auto/lybet4td44bodxycgmtw"
         type="video/mp4"
         className="absolute inset-0 w-full h-full object-cover sm:"
       ></video>
