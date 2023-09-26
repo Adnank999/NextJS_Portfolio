@@ -43,7 +43,7 @@ const Header = () => {
           </Link>
         </div>
 
-        <div className="md:hidden z-100">
+        <div className="xs:visible sm:visible md:hidden z-100">
           <MobileDrawer />
         </div>
 

@@ -5,8 +5,8 @@ import Framer from "../components/Framer";
 
 const TechnologySvg = () => {
   return (
-    <div className="sm:flex flex-col justify-center items-center md:grid grid-cols-3">
-      <div className="xs:m-20  md:flex flex-col justify-center items-center gap-5">
+    <div className="xs:flex xs:flex-col gap-6 sm:flex flex-col justify-center items-center md:grid grid-cols-3">
+      <div className="xs:m-6 md:flex flex-col justify-center items-center gap-5">
         <div className="mb-10 text-center text-2xl text-white font-bold">
           <h1>Frontend Technologies I use</h1>
         </div>
@@ -218,8 +218,8 @@ const TechnologySvg = () => {
         </div>
       </div>
 
-      <div className="xs:m-20  md:flex flex-col justify-center items-center gap-5">
-        <div className="mb-10 text-center text-2xl text-white font-bold">
+      <div className="xs:m-6 p-6  md:flex flex-col justify-center items-center gap-5">
+        <div className="mb-10  text-center text-2xl text-white font-bold">
           <h1>Backend Technologies I use</h1>
         </div>
 
@@ -325,7 +325,7 @@ const TechnologySvg = () => {
         </div>
       </div>
 
-      <div className="xs:m-20  md:flex flex-col justify-center items-center gap-5">
+      <div className="xs:m-6 md:flex flex-col justify-center items-center gap-5">
         <div className="mb-10 text-center text-2xl text-white font-bold">
           <h1>Tools I use</h1>
         </div>

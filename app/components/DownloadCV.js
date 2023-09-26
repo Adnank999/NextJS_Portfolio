@@ -27,7 +27,7 @@ const DownloadCV = () => {
                   d="M12 12v7m0 0l-2.25-2.333M12 19l2.25-2.333M6.6 17.833c-1.988 0-3.6-1.641-3.6-3.666 0-1.669 1.094-3.077 2.592-3.521A.152.152 0 005.7 10.5C5.7 7.462 8.118 5 11.1 5s5.4 2.462 5.4 5.5a.09.09 0 00.11.089c.254-.058.518-.089.79-.089 1.988 0 3.6 1.642 3.6 3.667s-1.612 3.666-3.6 3.666"
                 ></path>
               </svg>
-              <span className="pr-6 text-gray-100">Download My CV</span>
+              <span className="xs:text-sm sm:text-lg pr-6 text-gray-100">Download My CV</span>
             </span>
           </a>
         </div>

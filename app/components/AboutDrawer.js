@@ -51,7 +51,7 @@ const AboutDrawer = ({ showDrawerComp }) => {
         <div className="xs:flex-col  xs:justify-center  md:flex gap-8 relative">
           <div className="w-1/5 h-96 ml-10 md:border-4 md:border-yellow-500 ">
             <img
-              className="xs:absolute xs:left-16  md:absolute top-6 left-28 object-cover lg:absolute lg:top-6 lg:left-28 "
+              className="xs:absolute xs:left-4  md:absolute top-6 left-28 object-cover lg:absolute lg:top-6 lg:left-28 "
               src="/Images/Me.jpg"
               alt="Your Image Alt Text"
               width={300} // Set the width of the image as per your requirements
