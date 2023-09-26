@@ -6,7 +6,7 @@ import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import SpaceEX from "./SpaceEx";
 
 const Model = () => {
-  const gltf = useLoader(GLTFLoader, "/space/scene.gltf");
+  const gltf = useLoader(GLTFLoader, "/Space/scene.gltf");
 
   // const { actions } = useAnimations(gltf.animations, gltf.scene);
 
