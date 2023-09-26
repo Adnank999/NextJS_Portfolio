@@ -20,11 +20,11 @@ export async function POST(request) {
         }
  
         return {
-          allowedContentTypes: ['image/jpeg', 'image/png', 'image/gif'],
+          allowedContentTypes: ['image/jpeg', 'image/png', 'image/gif','video/mp4'],
           tokenPayload: JSON.stringify({
             // optional, sent to your server on upload completion
             userId: user.id,
-            postId
+            
           }),
         };
       },
@@ -32,6 +32,8 @@ export async function POST(request) {
         // Get notified of client upload completion
         // ⚠️ This will not work on `localhost` websites,
         // Use ngrok or similar to get the full upload flow
+
+
  
         console.log('blob upload completed', blob, tokenPayload);
  
@@ -39,6 +41,9 @@ export async function POST(request) {
           // Run any logic after the file upload completed
           // const { userId } = JSON.parse(tokenPayload);
           // await db.update({ avatar: blob.url, userId });
+          
+
+
         } catch (error) {
           throw new Error('Could not update user');
         }
