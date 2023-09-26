@@ -35,7 +35,7 @@ const AboutDrawer = ({ showDrawerComp }) => {
         }}
 
         bodyStyle={{
-          overflow: "hidden"
+          
         }}
         
         size="large"
