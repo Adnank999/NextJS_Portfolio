@@ -85,7 +85,7 @@ const AboutDrawer = ({ showDrawerComp }) => {
             <p className="xs:ml-0 xs:px-10 md:ml-20 px-16 text-white text-sm tracking-widest font-thin overflow-y-hidden">
               I am always excited to solve real world problems.I am fast and
               continous learner.I always try to be keep updated knowledge with
-              existing solution.
+              existing solution.As I am slowly growing as developer,I am always eager to from others.I am exploring Web surface top to bottom to learn more and more everyday.As a developer I am focused giving outstanding user experience on the other side we also need robust functionality support from the backend.Now a days it is very important to look and gain insight about the application from architectural point of view.
             </p>
           </div>
         </div>

@@ -219,7 +219,7 @@ const TechnologySvg = () => {
       </div>
 
       <div className="xs:m-6 p-6  md:flex flex-col justify-center items-center gap-5">
-        <div className="mb-10  text-center text-2xl text-white font-bold">
+        <div className="mb-6 px-8 text-center text-2xl text-white font-bold">
           <h1>Backend Technologies I use</h1>
         </div>
 
