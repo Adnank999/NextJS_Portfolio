@@ -21,7 +21,7 @@ const page = () => {
         
     
 
-         <div className="globe w-full md:w-1/2 "> 
+         <div className="xs:h-60 md:h-screen globe  md:w-1/2 "> 
             <Canvas3d/>
          </div> 
 

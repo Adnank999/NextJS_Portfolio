@@ -28,6 +28,7 @@ const MobileDrawer = () => {
       <Drawer
         title={<span className="custom-menu-drawer-header-title">Menu</span>}
         placement="right"
+        size="large"
         closable={true}
         closeIcon={<CrossSvg />}
         onClose={onClose}

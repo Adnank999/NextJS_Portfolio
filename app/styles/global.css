@@ -60,7 +60,6 @@ body::-webkit-scrollbar-thumb {
 .globe {
   display: grid;
   place-items: center;
-  height: 100vh;
   cursor: grabbing;
 }
 
