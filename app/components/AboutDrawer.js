@@ -47,9 +47,9 @@ const AboutDrawer = ({ showDrawerComp }) => {
         headerStyle={{ textAlign: "center" }}
       >
         <div className="xs:flex-col flex-wrap gap 6  xs:justify-center  md:flex gap-8 relative">
-          <div className="w-1/5 h-96 ml-10 md:border-4 md:border-yellow-500 ">
+          <div className="w-1/5 h-96 ml-20 md:border-4 md:border-yellow-500 ">
             <img
-              className="xs:absolute xs:left-4  md:absolute top-6 left-28 object-cover lg:absolute lg:top-6 lg:left-28 "
+              className="xs:absolute xs:left-4 sm:absolute sm:left-16 md:absolute top-6 left-40 object-cover lg:absolute lg:top-6 lg:left-28 "
               src="/Images/Me.jpg"
               alt="Your Image Alt Text"
               width={300} // Set the width of the image as per your requirements
@@ -57,7 +57,7 @@ const AboutDrawer = ({ showDrawerComp }) => {
             />
           </div>
 
-          <div className=" xs:flex-col md:absolute left-60 xs:px-0 sm:px-0 md:px-20 lg:px-30 h-full flex gap-8 py-16">
+          <div className=" xs:flex-col xs:mt-20 md:absolute left-60 xs:px-0 sm:px-0 md:px-20 lg:px-30 h-full flex gap-8 py-16">
             <TypeAnimation
               className="xs:ml-4 px-6 md:ml-10  lg:ml-24  text-white tracking-widest font-semibold"
               wrapper="span"
