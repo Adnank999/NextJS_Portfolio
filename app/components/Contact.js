@@ -83,11 +83,11 @@ const Contact = () => {
           </div>
           <input
             type="submit"
-            value="Send"
+            value="  Send
+            message"
             onClick={notify}
             className="text-white bg-black focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-black border-cyan-500/50 border-solid border-2 hover:shadow-md hover:shadow-purple-600 dark:focus:ring-blue-800"
-            Send
-            message
+          
           />
 
 

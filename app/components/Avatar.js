@@ -56,11 +56,13 @@ export function Avatar(props) {
           morphTargetInfluences={nodes.Wolf3D_Teeth.morphTargetInfluences}
         />
         <skinnedMesh
+        name="Wolf3D_Hair"
           geometry={nodes.Wolf3D_Hair.geometry}
           material={materials.Wolf3D_Hair}
           skeleton={nodes.Wolf3D_Hair.skeleton}
         />
         <skinnedMesh
+        name="Wolf3D_Glasses"
           geometry={nodes.Wolf3D_Glasses.geometry}
           material={materials.Wolf3D_Glasses}
           skeleton={nodes.Wolf3D_Glasses.skeleton}
