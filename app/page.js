@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect } from "react";
 import Lenis from "@studio-freight/lenis";
 import MultiParallax from "./components/MultiParalax/MultiParallax";
 import { MyData } from "./components/MyData";
@@ -10,7 +10,7 @@ import TimeLine from "./components/TimeLine";
 import Layout from "./components/Layout";
 
 import "./styles/global.css";
-import Upload from "./components/Upload";
+
 
 export default function Home() {
   useEffect(() => {

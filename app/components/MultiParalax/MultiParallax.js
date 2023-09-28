@@ -3,6 +3,7 @@
 import React, { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 
+
 const MultiParallax = () => {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
@@ -66,10 +67,12 @@ const MultiParallax = () => {
         muted
         loop
         playsInline
-        src="https://res.cloudinary.com/dtivxbmxa/video/upload/f_auto:video,q_auto/lybet4td44bodxycgmtw"
+        src="https://res.cloudinary.com/dtivxbmxa/video/upload/f_auto:video,q_80/lybet4td44bodxycgmtw"
         type="video/mp4"
         className="absolute inset-0 w-full h-full object-cover sm:"
       ></video>
+
+     
     </div>
   );
 };
