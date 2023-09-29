@@ -40,27 +40,7 @@ const MultiParallax = () => {
         A FULLSTACK WEB DEVELOPER
       </motion.h1>
 
-      {/* <motion.div
-        className="absolute inset-0 z-0 opacity-10"
-        style={{
-          backgroundImage: `url(/boy.png)`,
-          backgroundPosition: "top",
-          backgroundSize: "cover",
-          y: backgroundY,
-          mixBlendMode: "overlay" 
-        }}
-      />
-
-       <motion.div
-        className="absolute inset-0 z-0 opacity-10"
-        style={{
-          backgroundImage: `url(/laptop.png)`,
-          backgroundPosition: "top",
-          backgroundSize: "cover",
-          y: backgroundY,
-         
-        }}
-      /> */}
+     
 
       <video
         autoPlay
