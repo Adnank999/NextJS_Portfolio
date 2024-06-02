@@ -6,8 +6,8 @@ import { Analytics } from '@vercel/analytics/react';
 const raleway = Raleway({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Next js Portfolio",
-  description: "This is a portfolio website using Next js",
+  title: "Professional Frontend Developer Portfolio - Next.js",
+  description: "Welcome to my professional portfolio, showcasing my skills and projects as a Frontend Developer specializing in Next.js. This portfolio highlights a collection of my best work, demonstrating my proficiency in creating dynamic, high-performance web applications using Next.js. Explore my projects to see how I leverage modern web technologies to build responsive, user-friendly interfaces and seamless user experiences. From interactive components to full-scale applications, each project reflects my commitment to quality and innovation in frontend development. Dive in to discover how I turn ideas into reality with clean code, cutting-edge tools, and a passion for web development.",
 };
 
 export default function RootLayout({ children }) {

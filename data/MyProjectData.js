@@ -21,7 +21,7 @@ const MyProjectData = [
         title: "Lee house Restaurant",
         image: Lee1,
         description: "",
-        link: "https://example.com/project-one",
+        link: "https://order.chatchefs.com/lees-house-restaurant-782c15ff/3994-shelbourne-street-victoria-namer-v8n-3e2-1c72dd04/menu",
         otherImages: [
             {
                 id:1,
@@ -41,7 +41,7 @@ const MyProjectData = [
         title: "Ajiya Shushi Restaurant",
         image: ajiya1,
         description: "",
-        link: "https://example.com/project-two",
+        link: "https://order.chatchefs.com/ajiya-sushi-675b3650/1822-west-4th-ave-vancouver-canada-a7f044ba/menu",
         otherImages: [
             {
                 id:1,
@@ -58,7 +58,7 @@ const MyProjectData = [
         title: "Mabuhay Shushi Restaurant",
         image: Mabuhay1,
         description: "",
-        link: "https://example.com/project-three",
+        link: "https://www.mabuhayfoods.ca/",
         otherImages: [
             {
                 id:1,
@@ -82,7 +82,7 @@ const MyProjectData = [
         title: "Thai Box Shushi Restaurant",
         image: Thai1,
         description: "",
-        link: "https://example.com/project-four",
+        link: "https://thai-box-domain.vercel.app",
         otherImages: [
             {
                 id:1,
@@ -99,7 +99,7 @@ const MyProjectData = [
         title: "MultiLocation Google map",
         image: Multilocation,
         description: "",
-        link: "https://example.com/project-five",
+        link: "https://direct-order-multilocation.vercel.app/location/bubble-world-1-37818578",
         otherImages: [{
             id: 1,
             image: Multilocation

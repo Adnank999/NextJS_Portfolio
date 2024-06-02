@@ -12,7 +12,7 @@ const ProjectAnimatedCard = ({
   className,
 }: {
   items: {
-    id:number;
+    id: number;
     title: string;
     image: any;
     description: string;
@@ -38,8 +38,6 @@ const ProjectAnimatedCard = ({
   const handleCancel = () => {
     setOpen(false);
   };
-
- 
 
   return (
     <div
@@ -73,47 +71,62 @@ const ProjectAnimatedCard = ({
             )}
           </AnimatePresence>
           <Card>
-            <div onClick={() => showModal(item.otherImages)} className=" flex flex-col justify-center items-center gap-2">
-              <CardTitle>{item.title}</CardTitle>
-              <CardDescription>{item.description}</CardDescription>
-              <Image
-                src={item.image}
-                alt={item.title}
-                className="w-full h-[300px]"
-              />
-
-              <ButtonMoving
-                itemLink={item.link}
-                borderRadius="1.75rem"
-                className="text-white text-lg font-bold"
+            <div className="flex flex-col justify-center items-center gap-2">
+              <div
+                onClick={() => showModal(item.otherImages)}
+                className=" flex flex-col justify-center items-center gap-2"
               >
-                Live Preview
-              </ButtonMoving>
+                <CardTitle>{item.title}</CardTitle>
+                <CardDescription>{item.description}</CardDescription>
+                <Image
+                  src={item.image}
+                  alt={item.title}
+                  className="w-full h-[300px]"
+                />
+              </div>
+
+              <div>
+                <ButtonMoving
+                  itemLink={item.link}
+                  borderRadius="1.75rem"
+                  className="text-white text-lg font-bold cursor-pointer"
+                >
+                  Live Preview
+                </ButtonMoving>
+              </div>
             </div>
+
             <Modal
-             
-             
               open={open}
               onOk={handleOk}
               onCancel={handleCancel}
               width="100vw"
-              style={{ top: 0, padding: 0}}
+              style={{ top: 0, padding: 0 }}
               // bodyStyle={{
               //   overflow: "auto",
               //   height: "calc(100vh - 108px)",
-               
+
               // }}
-              
+
               footer={[
-                <Button key="back" onClick={handleCancel} style={{ color: 'black' }}>
+                <Button
+                  key="back"
+                  onClick={handleCancel}
+                  style={{ color: "black" }}
+                >
                   Cancel
                 </Button>,
-                <Button key="submit" type="primary" onClick={handleCancel} style={{ color: 'black' }}>
+                <Button
+                  key="submit"
+                  type="primary"
+                  onClick={handleCancel}
+                  style={{ color: "black" }}
+                >
                   OK
                 </Button>,
               ]}
             >
-              <SwiperShowProject images={currentImages}/>
+              <SwiperShowProject images={currentImages} />
             </Modal>
           </Card>
         </div>
@@ -137,9 +150,7 @@ export const Card = ({
       )}
     >
       <div className="relative z-50">
-        <div className="p-4">
-          {children}
-        </div>
+        <div className="p-4">{children}</div>
       </div>
     </div>
   );
